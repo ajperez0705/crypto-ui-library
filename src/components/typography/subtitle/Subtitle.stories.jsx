@@ -1,4 +1,4 @@
-import Subtitle from "../components/typography/subtitle/Subtitle";
+import Subtitle from "./Subtitle";
 
 export default {
   title: "Components/Typography",

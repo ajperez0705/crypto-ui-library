@@ -16,6 +16,9 @@ const GlobalStyles = createGlobalStyle`
 /* Work Sans Google Import */
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
 
+/* Roboto Mono */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
     
     * {
         box-sizing: border-box;
@@ -50,7 +53,41 @@ const GlobalStyles = createGlobalStyle`
 
         /* Subtitle */
         h4 {
-            font-family: 'Work Sans', sans-serif;;
+            font-family: 'Work Sans', sans-serif;
+        }
+
+        /* Pretitle */
+        h5 {
+            font-family: Work Sans;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 12px;
+            line-height: 14px;
+            letter-spacing: 0.03em;
+            text-transform: uppercase;
+        }
+
+        p {
+            font-family: 'Roboto Mono', monospace; 
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 140%;
+        }
+
+        button {
+            font-family: monumentExtended_Black;
+        }
+
+        
+
+        a {
+            font-family: 'Roboto Mono', monospace; 
+            font-style: normal;
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 16px;
+            text-decoration-line: underline;
         }
       
 `;

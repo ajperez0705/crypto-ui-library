@@ -1,4 +1,4 @@
-import Heading from "../components/typography/heading/Heading";
+import Heading from "./Heading";
 
 export default {
   title: "Components/Typography",
